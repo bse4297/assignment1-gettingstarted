@@ -7,6 +7,8 @@ def welcome_assignment_answers(question):
     #Another way to implement is using a "case" statements similar to C.
     if question == "Are encoding and encryption the same? - Yes/No":
         answer = "No"
+
+    ##might be problematic ^^above case
     elif question == "Is it possible to decrypt a message without a key? - Yes/No":
         answer = "No"
     elif question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
@@ -15,6 +17,10 @@ def welcome_assignment_answers(question):
         answer = "Yes"
     elif question == "Is it possible to decode a message without a key? - Yes/No":
         answer = "Yes"
+    elif question == "Is a hashed message supposed to be un-hashed? - Yes/No":
+        answer = "No"
+    elif question == "What is the SHA256 hashing value of your NYU email and use the answer in your code - ":
+        answer = "59a3cd86d33625158414c0f2487af96ebcbeec6bd059dbd1cef99517add7e531"      
     else: 
         ### you should understand why this else case should be included
         ### what happens if there is a typo in one of the questions?
