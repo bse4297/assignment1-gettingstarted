@@ -9,6 +9,10 @@ def welcome_assignment_answers(question):
         answer = "No"
     elif question == "Is it possible to decrypt a message without a key? - Yes/No":
         answer = "Yes"
+    elif question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
+        answer = "pcap"   
+    elif question == "Is it possible to decrypt a message without a key? - Yes/No":
+        answer = "Yes"           
     else: 
         ### you should understand why this else case should be included
         ### what happens if there is a typo in one of the questions?
@@ -24,7 +28,7 @@ if __name__ == "__main__":
     print(welcome_assignment_answers(debug_question))
 
 #Questions:
-#"In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":pca
+#"In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":pcap
 #"Are encoding and encryption the same? - Yes/No":No
 #"Is it possible to decrypt a message without a key? - Yes/No":Yes
 #"Is it possible to decode a message without a key? - Yes/No":Yes
